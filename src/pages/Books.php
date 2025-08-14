@@ -22,7 +22,7 @@ if (isset($_POST['add_book'])) {
     <title>Book</title>
 </head>
 <body>
-<?php include '../navbar.php'; ?>
+<?php include  '../navbar.php'; ?>
       <form dir="rtl" style="margin: 200px;"class="form-box" method="post" action="">
         <label>اسم الكتاب:</label>
         <input type="text" name="book_name" required>
