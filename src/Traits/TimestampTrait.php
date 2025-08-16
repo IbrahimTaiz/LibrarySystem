@@ -1,6 +1,6 @@
 <?php
 namespace src\Traits;
-trait src\TimestampTrait
+trait TimestampTrait
 {
     public function currentTimestamp()
     {
