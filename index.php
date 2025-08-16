@@ -11,12 +11,7 @@ declare(strict_types=1);
     <body>
 <?php include 'src/navbar.php'; ?>
     </body>
-    <nav style="font-size: 3em; text-align: center; margin: 200px; font-weight: bold;">
+    <nav dir="rtl" style="font-size: 3em; text-align: center; margin: 200px; font-weight: bold;">
         المكتبة العربية ـ تعز
     </nav>
-</html>
-</head>
-<body>
-   
-</body>
 </html>
