@@ -1,6 +1,5 @@
 <?php
-namespace src\Traits;
-trait src\LoggerTrait
+trait LoggerTrait
 {
     public function log($message)
     {
