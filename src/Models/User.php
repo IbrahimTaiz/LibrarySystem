@@ -1,27 +1,16 @@
 <?php
-class User
+namespace src\Models;
+abstract class User
 {
     protected $name;
     protected $email;
-    protected $password;
-    public function __construct($n,$e,$p)
+    public function __construct($name,$email)
     {
-        $this->name = $n;
-        $this->email = $e;
-        $this->password = $p;
+        $this->name = $name;
+        $this->email = $email;
     }
-
-        public function getName(): string
+    public function getName()
     {
         return $this->name;
     }
-        public function getEmail(): string
-    {
-        return $this->email;
-    }
-        public function getPassword(): string
-    {
-        return $this->password;
-    }
 }
-?>

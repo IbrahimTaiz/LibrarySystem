@@ -1,14 +1,13 @@
 <?php
+declare(strict_types=1);
+namespace src\Models;
 class Book
 {
-    private $name;
-    private $subject;
-    
-    public function __construct($n,$s)
+    public  $title;
+    public  $author;
+    public function __construct( $title,  $author)
     {
-        $this->name = $n;
-        $this->subject = $s;
+        $this->title = $title;
+        $this->author = $author;
     }
-
 }
-

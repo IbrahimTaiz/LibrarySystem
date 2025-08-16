@@ -1,8 +1,5 @@
 <?php
-
-namespace LibrarySystem\Models;
-
-
+namespace src\Models;
 class SMSNotification
 {
     public function notify($message)
