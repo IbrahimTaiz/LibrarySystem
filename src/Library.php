@@ -1,7 +1,5 @@
 <?php
 namespace src;
-use src\Models\Book;
-use src\Models\User;
 use src\Traits\LoggerTrait;
 class Library
 {
