@@ -20,55 +20,6 @@ if (isset($_POST['add_book'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الكتب</title>
-    <style>
-        body {
-            font-family: sans-serif;
-        }
-        .container {
-            margin: 50px auto;
-            max-width: 800px;
-            padding: 20px;
-        }
-        .form-box {
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-        .form-box label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        .form-box input {
-            width: calc(100% - 22px);
-            padding: 10px;
-            margin-bottom: 15px;
-        }
-        .form-box button {
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 3px;
-        }
-        .form-box button:hover {
-            background-color: #0056b3;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: right;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
 </head>
 <body>
 <?php include '../navbar.php'; ?>
